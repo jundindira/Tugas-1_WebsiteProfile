@@ -165,7 +165,7 @@ body {
     font-size: 13px;
   }
 
-  #about-img{
+  #about-img {
     height: 220px;
     width: 200px;
     border-radius: 50%;
@@ -173,14 +173,47 @@ body {
     margin-right: 20px; /* Jarak antara gambar dan teks */
   }
 
-  .about-content {
+  #about-page table {
+    text-align: left;
+  }
+
+  #about-page button {
+    background-color: #9ba8ab;
+    color: 06141b;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  #about-page button:hover {
+    background-color: #9ba8ab;
+  }
+
+  #projects-img {
+    height: 200px;
+    width: 400px;
+    color: black;
+    margin-right: 20px; /* Jarak antara gambar dan teks */
+  }
+
+  #projects-page table {
+    text-align: left;
+  }
+
+  .social-icons {
     display: flex;
-    align-items: center; /* Posisikan gambar dan teks di tengah-tengah secara vertikal */
+    gap: 20px; /* Jarak antara ikon */
+    justify-content: center; /* Agar ikon berada di tengah */
+    margin-bottom: 20px; /* Jarak antara ikon dan teks */
 }
 
-#project-img{
-  height: 300px;
-  width: 500px;
-  color: black;
-  margin-right: 20px; /* Jarak antara gambar dan teks */
+.social-icons a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
 }
